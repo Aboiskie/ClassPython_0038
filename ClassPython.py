@@ -5,7 +5,7 @@ class Rectangle:
 
     def keliling(self):
         return 2 * (self.p + self.l)
-
+    
     def luas(self):
         return self.p * self.l
 
@@ -26,7 +26,7 @@ while l <= 0:
     print("Lebar tidak boleh 0 atau negatif!")
     l = float(input("Masukkan lebar: "))
 
-    # Membuat object
+# Membuat object
 r = Rectangle(p, l)
 
 # Memanggil semua fungsi
@@ -36,4 +36,3 @@ print("Keliling:", r.keliling(), "cm")
 print("Luas:", r.luas(), "cm²")
 
 # Program selesai
-
